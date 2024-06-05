@@ -1,0 +1,28 @@
+.aboutComp{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    background-color: aqua;
+
+    margin-top: 50px;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    }
+
+
+
+
+    @keyframes appear{
+        0%{
+            opacity: 0;
+            scale: 0.5;
+        }
+        100%{
+            opacity: 1;
+            scale: 1;
+        }
+    }
