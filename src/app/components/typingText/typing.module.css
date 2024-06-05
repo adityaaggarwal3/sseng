@@ -6,15 +6,15 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.15); */
+    position: absolute;
+    top: 50%;
 }
 
 .headerText h1{
     text-shadow: 2px 4px 5px rgba(0,0,0,0.6);
-    /* background-color: rgba(0, 0, 0, 0.15); */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     
   }
   
@@ -23,4 +23,4 @@
   }
   @media (max-width: 475px) {
     
-  }
+  } */
